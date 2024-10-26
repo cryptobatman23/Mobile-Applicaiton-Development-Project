@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178576332611",
+    "project_id": "skinapp-ebe52",
+    "storage_bucket": "skinapp-ebe52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178576332611:android:941df2980438ce6a5201f6",
+        "android_client_info": {
+          "package_name": "com.example.skinapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfpnjq4cwPdq5ztv88rXyJePq6OsEvWbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

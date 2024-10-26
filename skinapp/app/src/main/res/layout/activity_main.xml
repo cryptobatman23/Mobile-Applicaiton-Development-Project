@@ -1,0 +1,58 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        android:visibility="visible" />
+
+    <!-- Logo at the Top Center -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="196dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/skog"
+        android:visibility="visible" />
+
+    <!-- Dropdown Menu Icon at the Top Right -->
+    <ImageView
+        android:id="@+id/dropdownMenuIcon"
+        android:layout_width="46dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/dropdown" />
+
+    <!-- Bold Text Below the Logo -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="KNOW YOUR DISEASE!"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/black" />
+
+    <!-- RecyclerView for Diseases below the text -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/diseaseRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
